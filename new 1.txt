@@ -1,0 +1,11 @@
+$querycheck='SELECT 1 FROM `USERS`';
+
+
+$query_result=$dbConnection->query($querycheck);
+if ($query_result !== FALSE)
+{
+ // table exists
+} else
+{
+// table does not exist, create here.
+}

@@ -1,0 +1,232 @@
+/* Bordered form */
+.form1 {
+	
+	width:50%;
+    border: 3px solid #C8373F;
+	background:#ccc;
+	margin-top:50px;
+ 
+}
+.form {
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  background:#fff;
+}
+/* Full-width inputs */
+ input[type=password] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 60px;
+  align-items:center;
+  display: inline-block;
+  border: 1px solid #C8373F;
+  box-sizing: border-box;
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 60px;
+  align-items:center;
+  display: inline-block;
+  border: 1px solid #C8373F;
+  box-sizing: border-box;
+}
+.select {
+  width: 80%;
+  padding: 12px;
+  margin: 8px 60px;
+  align-items:center;
+  display: inline-block;
+  border: 1px solid #C8373F;
+  box-sizing: border-box;
+}
+.select1 {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 60px;
+  border: 1px solid #C8373F;
+  box-sizing: border-box;
+}
+.button1 {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 60px;
+  background-color:#C8373F;
+  box-sizing: border-box;
+}
+.a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+.a:hover{
+	opacity: .7;
+	color: #C8373F;
+}   
+.b {
+    
+
+    padding:20px 20px;
+	color: #fff;
+	font-size:40px;
+	border: none;
+	text-align:center;
+	text-decoration: none;
+}
+.b:hover{
+	opacity: .7;
+	color: #C8373F;
+} 
+.divb{
+	background: #555;
+	width:400px;
+	height:60px;
+	margin:auto;
+    padding: auto;
+	border: none;
+}
+/* Set a style for all buttons */
+.button {
+  background-color: #C8373F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Add a hover effect for buttons */
+.button:hover {
+  opacity: 0.8;
+}
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.containerlogonav{
+  width:100%;
+  height:80px;
+  display:flex;
+  background-color:#ccc;
+}
+.navigation-menu{
+	width:100%;
+	margin:10px;
+	padding:10px;
+}
+.logo {
+	width:18%;
+	height:85px;
+	margin:10px;
+	padding:10px;
+	
+}
+.logo img{
+float:left;
+margin:auto;
+padding: auto;
+}
+
+
+.grid-container {
+    width:100%;
+	background:#ccc;
+    grid-gap: 20px;	
+}
+
+th,td{
+	border: 1px solid #C8373F;
+	color:black;
+	padding: 10px 20px;
+}
+.myDIV {
+  width: 100%;
+  padding: 20px 20px;
+  display:flex;
+}
+.myDIV1{
+  width: 100%;
+}
+.h1{
+	font-size: 30px;
+	padding: 30px 30px;
+}
+div.pager {
+    text-align: left; 
+}
+
+div.pager span {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+    background: #C8373F;
+    color: #ccc;
+    margin-right: 0.5em;
+}
+
+div.pager span.active {
+    background: #fff;
+    color:#C8373F;
+    font-weight:bold;
+    text-align:center;
+}
+
+#heading{
+	font-size:50px;
+	text-align:center;
+	color:#C8373F;
+	
+}
+.indexpage{
+	margin:auto;
+    padding: auto;
+	background-color:#ccc;
+	width:100%;
+	height:600px;
+	text-align:center;
+	
+}
